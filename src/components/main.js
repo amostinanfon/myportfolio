@@ -12,7 +12,7 @@ const Main = () => (
         <Route exact path="/" component={LandingPage}/>
         <Route  path="/Contact" component={Contact}/>
         <Route  path="/Projects" component={Projects}/>
-        <Route  path="/Resume" component={Resume}/>
+        <Route  path="/Resume" component={LandingPage}/>
         <Route  path="/Aboutme" component={Aboutme}/>
      </Switch>
 )
