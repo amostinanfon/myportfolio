@@ -35,7 +35,7 @@ export default class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton'}}>
                                         <i className="fa fa-fax" aria-hidden="true"/>
-                                        (+237) 694 291 176 / 654 046 638
+                                        (+237)694 291 176 / 654 046 638
                                     </ListItemContent>
                                 </ListItem>
 
