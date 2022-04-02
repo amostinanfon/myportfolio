@@ -14,29 +14,29 @@ class Landing extends Component {
                             className="avatar-img"
                         />
                         <div className="banner-text">
-                            <h1>Full Stack Web Developer</h1>
+                            <h1>Developpeur Full Stack</h1>
                             <hr/>
                             <p>HTML / CSS | Bootstrap | Javascript | React | React Native | NodeJS | Express | MongoDB</p>
                          
                                 <div className="social-links">
 
-                                    {/*LinkedIn*/}
+                                    {/* Lien LinkedIn*/}
                                     <a href="http://google.com" rel="noopener noreferrer" target="_blank">
                                         <i className="fa fa-linkedin-square" area-hidden="true"/>
                                     </a>                           
                                 
 
-                                    {/*Github*/}
+                                    {/*Lien Github*/}
                                     <a href="http://google.com" rel="noopener noreferrer" target="_blank">
                                         <i className="fa fa-github-square" area-hidden="true"/>
                                     </a> 
 
-                                    {/*Freecodecamp*/}
+                                    {/*Lien Freecodecamp*/}
                                     <a href="http://google.com" rel="noopener noreferrer" target="_blank">
                                         <i className="fa fa-free-code-camp" area-hidden="true"/>
                                     </a>    
 
-                                    {/*Youtube*/}
+                                    {/*Lien Youtube*/}
                                     <a href="http://google.com" rel="noopener noreferrer" target="_blank">
                                         <i className="fa fa-youtube-square" area-hidden="true"/>
                                     </a>                              
