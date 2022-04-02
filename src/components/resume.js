@@ -17,7 +17,7 @@ class Resume extends Component {
                             />
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Amos TINA NFON</h2>
-                        <h4 style={{color: "grey"}}>Programmer</h4>
+                        <h4 style={{color: "grey"}}>Developpeur</h4>
                         <hr style={{ borderTop: '3px solid #633fb2', width: '50%' }}/>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -25,14 +25,14 @@ class Resume extends Component {
                                 It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                             </p>
                         <hr style={{ borderTop: '3px solid #633fb2', width: '50%' }}/>
-                        <h5>Address</h5>
+                        <h5>Adresse</h5>
                         <p>Derriere Mairie PK 13, Douala Cameroun </p>
-                        <h5>Phone</h5>
+                        <h5>Tel</h5>
                         <p>(+237) 694 291 173</p>
                         <h5>Email</h5>
                         <p>amostinanfon17@gmail.com</p>
                         <h5>Web</h5>
-                        <p>mywebsite.com</p>
+                        <p>siteinternet.com</p>
                         <hr style={{ borderTop: '3px solid #633fb2', width: '50%' }}/>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
@@ -72,7 +72,7 @@ class Resume extends Component {
                                 It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."  
                         />
                         <hr style={{ borderTop: '3px solid #633fb2', width: '50%' }}/>
-                        <h2>Skills</h2>
+                        <h2>Competences</h2>
                         <Skills 
                             skill='HTML/CSS'
                             progress={95}
@@ -83,7 +83,7 @@ class Resume extends Component {
                         />
                          <Skills 
                             skill='React'
-                            progress={60}
+                            progress={85}
                         />
                     </Cell>
                 </Grid>
