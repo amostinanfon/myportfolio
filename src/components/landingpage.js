@@ -8,10 +8,9 @@ class Landing extends Component {
                <Grid className='landing-grid'>
                     <Cell col={12}>
                         <img 
-                            //src="https://www.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png"
-                            src= "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQHYOGRp82_r_ji6qvWf-3VwEG1Ju-KaJtIFQ&usqp=CAU"
+                            src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
                             alt="avatar"
-                            className="avatar-img"
+                            style={{height: '200px', margin: '30px 0 20px 0', padding: '20px 0 15px 0'}}
                         />
                         <div className="banner-text">
                             <h1>Developpeur Full Stack</h1>
