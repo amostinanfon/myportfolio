@@ -297,13 +297,13 @@ toggleList() {
     return (
         <List style={{width: '500px'}}>
             <ListItem twoLine>
-                <ListItemContent avatar="person" subtitle="Bryan Cranston played the role of Walter in Breaking Bad. He is also known for playing Hal in Malcom in the Middle.">Bryan Cranston</ListItemContent>
+                <ListItemContent avatar="person" subtitle="lorem xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">nfon nfon thomas</ListItemContent>
                     <ListItemAction>
                     <a href="/"><Icon name="star" /></a>
                     </ListItemAction>
             </ListItem>
             <ListItem twoLine>
-                <ListItemContent avatar="person" subtitle="Aaron Paul played the role of Jesse in Breaking Bad. He also featured in the Need For Speed Movie.">Aaron Paul</ListItemContent>
+                <ListItemContent avatar="person" subtitle="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">Aaron</ListItemContent>
                     <ListItemAction>
                     <a href="#"><Icon name="star" /></a>
                     </ListItemAction>
