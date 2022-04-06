@@ -12,6 +12,7 @@ function App() {
             <Header className='header-color' title="MyPortFolio" scroll>
                 <Navigation>
                     <Link to="/">Accueil</Link>
+                    <Link to="/myportfolio"></Link>
                     <Link to="/resume">Resume</Link>
                     <Link to="/aboutme">Qui suis-je ?</Link>
                     <Link to="/projects">Projets</Link>
@@ -22,7 +23,7 @@ function App() {
             <Navigation>
                     <Link to="/">Accueil</Link>
                     <Link to="/resume">Resume</Link>
-                    <Link to="/aboutme">QUi suis-je ?</Link>
+                    <Link to="/aboutme">Qui suis-je ?</Link>
                     <Link to="/projects">Projets</Link>
                     <Link to="/contact">Me Contacter</Link>
                 </Navigation>
