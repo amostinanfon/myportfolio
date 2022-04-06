@@ -305,7 +305,7 @@ toggleList() {
             <ListItem twoLine>
                 <ListItemContent avatar="person" subtitle="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">tina nfon amos</ListItemContent>
                     <ListItemAction>
-                    <a href="#"><Icon name="star" /></a>
+                    <a href="/"><Icon name="star" /></a>
                     </ListItemAction>
             </ListItem>
         </List>
