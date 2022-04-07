@@ -112,3 +112,12 @@
   font-size: 5em;
 }
 
+.about-body {
+  margin: 10px;
+}
+
+.about-body img {
+  height: 350px;
+  width: 350px;
+  float: right;
+}

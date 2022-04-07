@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import image from '../../src/assets/images/image00.png'
+import image from '../../src/assets/images/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496199.jpg'
 //import photo from '../../src/assets/images/photo.PNG'
 
 
@@ -7,7 +7,7 @@ import image from '../../src/assets/images/image00.png'
 export default class Aboutme extends Component {
     render() {
         return (
-            <div>
+            <div className='about-body'>
                 <h1>Qui suis-je ???</h1>
                 <img src={image} alt='photo2'/>
                 <p>Dolor amet nostrud ullamco sunt aliqua aliquip. Mollit id do ut consectetur occaecat ad est Lorem in incididunt enim elit esse elit. Voluptate velit laborum et reprehenderit enim ea ipsum aliquip esse proident amet non. Exercitation ad Lorem ea consectetur aliquip sint culpa. Elit quis consequat enim proident laboris duis exercitation nulla irure laboris voluptate. Aliquip nostrud dolor nulla anim Lorem.
