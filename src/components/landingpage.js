@@ -13,7 +13,7 @@ class Landing extends Component {
                             style={{height: '200px', margin: '30px 0 20px 0', padding: '20px 0 15px 0'}}
                         />
                         <div className="banner-text">
-                            <h1>Developpeur Full Stack</h1>
+                            <h1>Développeur Full Stack</h1>
                             <hr/>
                             <p>HTML / CSS | Bootstrap | Javascript | React | React Native | NodeJS | Express | MongoDB</p>
                          
