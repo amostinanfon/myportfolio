@@ -9,9 +9,9 @@ import Aboutme from './aboutme';
 
 const Main = () => (
     <Switch>
-        <Route exact path="/" component={LandingPage}/>
+        <Route exact path="/" component={LandingPage} />
         <Route exact path="/myportfolio" component={LandingPage}/>
-        <Route  path="/Contact" component={Contact}/>
+        <Route  path="/Contact" component={Contact} />
         <Route  path="/Projects" component={Projects}/>
         <Route  path="/Resume" component={Resume}/>
         <Route  path="/Aboutme" component={Aboutme}/>
