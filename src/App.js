@@ -20,12 +20,12 @@ function App() {
                 </Navigation>
             </Header>
             <Drawer title="MyPortFolio">
-            <Navigation>
-                    <Link to="/">Accueil</Link>
-                    <Link to="/resume">Resume</Link>
-                    <Link to="/aboutme">Qui suis-je ?</Link>
-                    <Link to="/projects">Projets</Link>
-                    <Link to="/contact">Me Contacter</Link>
+                <Navigation>
+                        <Link to="/">Accueil</Link>
+                        <Link to="/resume">Resume</Link>
+                        <Link to="/aboutme">Qui suis-je ?</Link>
+                        <Link to="/projects">Projets</Link>
+                        <Link to="/contact">Me Contacter</Link>
                 </Navigation>
             </Drawer>
             <Content>
