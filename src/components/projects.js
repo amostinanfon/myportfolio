@@ -20,7 +20,7 @@ toggleCategories() {
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </CardText>
                     <CardActions>
-                        <Button colored>Github</Button>
+                        <Button colored ><a style={{textDecoration: 'none' , color:'blue'}} href='https://github.com/amostinanfon/kxk_project' target='_blank' rel='noopener noreferrer'>Github</a></Button>
                         <Button colored>CodePen</Button>   
                         <Button colored>Live Demo</Button>    
                     </CardActions>
