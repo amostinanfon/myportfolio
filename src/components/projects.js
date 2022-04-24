@@ -51,7 +51,9 @@ toggleCategories() {
                         React Project #3
                     </CardTitle>
                     <CardText>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry .
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry .
+
                     </CardText>
                     <CardActions>
                         <Button colored><a style={{textDecoration: 'none', color: 'blue'}} href="https://github.com/amostinanfon/mern-ecommerce-app-01" target='_blank' rel='noopener noreferrer'>GITUHUB</a></Button>
