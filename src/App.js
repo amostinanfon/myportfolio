@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="demo-big-content">
         <Layout>
-            <Header className='header-color' title="MonPortFolio" scroll>
+            <Header className='header-color' title="Mon PortFolio" scroll>
                 <Navigation>
                     <Link to="/">Accueil</Link>
                     <Link to="/myportfolio"></Link>
@@ -19,7 +19,7 @@ function App() {
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title="MyPortFolio">
+            <Drawer title="Mon PortFolio">
                 <Navigation>
                         <Link to="/">Accueil</Link>
                         <Link to="/resume">Resume</Link>
