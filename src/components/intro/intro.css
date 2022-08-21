@@ -1,6 +1,6 @@
 .i {
   display: flex;
-  height: 100vh;
+  height: 120vh;
 }
 
 .i-left {
@@ -38,7 +38,7 @@
 }
 
 .i-title-wrapper {
-  height: 100%;
+  height: 200%;
   animation: move 10s ease-in-out infinite alternate;
 }
 
@@ -70,7 +70,7 @@
   width: 30px;
   height: 30px;
   position: absolute;
-  bottom: 20px;
+  bottom: -10%;
 }
 
 .i-img {
@@ -78,6 +78,7 @@
   height: 100%;
   object-fit: cover;
   position: absolute;
+  border-radius: 50px;
 }
 
 .i-bg {
