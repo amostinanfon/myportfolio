@@ -1,28 +1,31 @@
-import { useContext } from "react";
-import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
-import Intro from "./components/intro/Intro";
-import ProductList from "./components/productList/ProductList";
-import Toggle from "./components/toggle/Toggle";
-import { ThemeContext } from "./context";
+import styled from "styled-components";
+import Contact from "./components/Contact";
+import Hero from "./components/Hero";
+import Who from "./components/Who";
+import Works from "./components/Works";
 
-const App = () => {
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+const Container = styled.div`
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+  color: white;
+  background: url("./img/bg.jpeg");
+  &::-webkit-scrollbar{
+    display: none;
+  }
+`;
+
+function App() {
   return (
-    <div
-      style={{
-        backgroundColor: darkMode ? "#222" : "white",
-        color: darkMode && "white",
-      }}
-    >
-      <Toggle />
-      <Intro />
-      <About />
-      <ProductList />
+    <Container>
+      <Hero />
+      <Who />
+      <Works />
       <Contact />
-    </div>
+    </Container>
   );
-};
+}
 
 export default App;
