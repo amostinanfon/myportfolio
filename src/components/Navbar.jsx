@@ -5,6 +5,7 @@ import styled from "styled-components";
 const Section = styled.div`
   display: flex;
   justify-content: center;
+  position: static;
 
   @media only screen and (max-width: 600px) {
     width: 100%;
@@ -82,6 +83,10 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
+const Menu = styled.div`
+
+`
+
 const Navbar = () => {
   return (
     <Section>
@@ -92,7 +97,7 @@ const Navbar = () => {
             <ListItem to="/">
               Home
             </ListItem>
-            <ListItem to="studio/">
+            <ListItem to="/who">
               Who
             </ListItem>
             <ListItem to="/works">
@@ -103,6 +108,9 @@ const Navbar = () => {
             </ListItem>
           </List>
         </Links>
+        <Menu >
+
+        </Menu>
         <Icons>
           {/* Changed the image due to copyright problems */}
           <Icon src="./img/search.png" />
