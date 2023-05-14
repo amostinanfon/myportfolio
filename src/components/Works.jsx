@@ -12,6 +12,20 @@ const data = [
   "Social Media",
 ];
 
+const Wrapper = styled.div`
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+  color: white;
+  background: url("./img/bg.jpeg");
+  &::-webkit-scrollbar{
+    display: none;
+  }
+`;
+
+
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
@@ -96,28 +110,30 @@ const Right = styled.div`
 const Works = () => {
   const [work, setWork] = useState("Web Design");
   return (
-    <Section>
-      <Container>
-        <Left>
-          <List>
-            {data.map((item) => (
-              <ListItem key={item} text={item} onClick={() => setWork(item)}>
-                {item}
-              </ListItem>
-            ))}
-          </List>
-        </Left>
-        <Right>
-          {work === "Web Design" ? (
-            <WebDesign />
-          ) : work === "Development" ? (
-            <Development />
-          ) : (
-            <ProductDesign />
-          )}
-        </Right>
-      </Container>
-    </Section>
+    <Wrapper>
+      <Section>
+        <Container>
+          <Left>
+            <List>
+              {data.map((item) => (
+                <ListItem key={item} text={item} onClick={() => setWork(item)}>
+                  {item}
+                </ListItem>
+              ))}
+            </List>
+          </Left>
+          <Right>
+            {work === "Web Design" ? (
+              <WebDesign />
+            ) : work === "Development" ? (
+              <Development />
+            ) : (
+              <ProductDesign />
+            )}
+          </Right>
+        </Container>
+      </Section>
+    </Wrapper>
   );
 };
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Section = styled.div`
@@ -36,7 +37,9 @@ const Logo = styled.img`
 
 const List = styled.ul`
   display: flex;
-  gap: 20px;
+  margin-left:10px;
+  padding-left:10px;
+  gap: 40px;
   list-style: none;
 
   @media only screen and (max-width: 600px) {
@@ -44,9 +47,19 @@ const List = styled.ul`
   }
 `;
 
-const ListItem = styled.li`
+const ListItem = styled(Link)`
   cursor: pointer;
+  text-decoration:none;
+  color: purple;
+  &:hover,
+  &:focus{
+      color: blue;
+  }
+  &:active{
+      color: red;
+  };
 `;
+
 
 const Icons = styled.div`
   display: flex;
@@ -76,10 +89,18 @@ const Navbar = () => {
         <Links>
           <Logo src="./img/logo.JPG" />
           <List>
-            <ListItem>Home</ListItem>
-            <ListItem>Studio</ListItem>
-            <ListItem>Works</ListItem>
-            <ListItem>Contact</ListItem>
+            <ListItem to="/">
+              Home
+            </ListItem>
+            <ListItem to="studio/">
+              Who
+            </ListItem>
+            <ListItem to="/works">
+              Works
+            </ListItem>
+            <ListItem to="/contact">
+              Contact
+            </ListItem>
           </List>
         </Links>
         <Icons>

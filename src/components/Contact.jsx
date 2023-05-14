@@ -2,6 +2,22 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import Map from "./Map";
+import Navbar from "./Navbar";
+
+
+
+const Wrapper = styled.div`
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+  color: white;
+  background: url("./img/bg.jpeg");
+  &::-webkit-scrollbar{
+    display: none;
+  }
+`;
 
 const Section = styled.div`
   height: 100vh;
@@ -101,28 +117,30 @@ const Contact = () => {
       );
   };
   return (
-    <Section>
-      <Container>
-        <Left>
-          <Form ref={ref} onSubmit={handleSubmit}>
-            <Title>Contact Me</Title>
-            <Input placeholder="Name" name="name" />
-            <Input placeholder="Email" name="email" />
-            <TextArea
-              placeholder="Write your message"
-              name="message"
-              rows={10}
-            />
-            <Button type="submit">Send</Button>
-            {success &&
-              "Your message has been sent. I'll get back to you soon :)"}
-          </Form>
-        </Left>
-        <Right>
-          <Map />
-        </Right>
-      </Container>
-    </Section>
+    <Wrapper>
+      <Section>
+        <Container>
+          <Left>
+            <Form ref={ref} onSubmit={handleSubmit}>
+              <Title>Contact Me</Title>
+              <Input placeholder="Name" name="name" />
+              <Input placeholder="Email" name="email" />
+              <TextArea
+                placeholder="Write your message"
+                name="message"
+                rows={10}
+              />
+              <Button type="submit">Send</Button>
+              {success &&
+                "Your message has been sent. I'll get back to you soon :)"}
+            </Form>
+          </Left>
+          <Right>
+            <Map />
+          </Right>
+        </Container>
+      </Section>
+    </Wrapper>
   );
 };
 
